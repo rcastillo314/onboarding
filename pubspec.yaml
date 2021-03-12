@@ -20,10 +20,16 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - images/
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+    - assets/images/
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Black.ttf
+        - asset: assets/fonts/Lato-BlackItalic.ttf
+        - asset: assets/fonts/Lato-Bold.ttf
+        - asset: assets/fonts/Lato-Italic.ttf
+        - asset: assets/fonts/Lato-Light.ttf
+        - asset: assets/fonts/Lato-LightItalic.ttf
+        - asset: assets/fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-Thin.ttf
+        - asset: assets/fonts/Lato-ThinItalic.ttf
